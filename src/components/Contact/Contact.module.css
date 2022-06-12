@@ -1,0 +1,109 @@
+.contactFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  width: 100%;
+  max-width: 750px;
+  color: rgb(47, 47, 47);
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 1rem;
+  height: auto;
+  
+  
+}
+.boxContainer {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+}
+
+.input {
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    margin-left: 0;
+    margin-right: 1rem;
+    padding: .5rem;
+   
+}
+.inputBody {
+    display: flex;
+    width: 400px;
+    border:none;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem ;
+    mix-blend-mode: inherit;
+   
+    
+    
+}
+.input:hover  {
+    cursor: pointer;
+    background-color: rgb(220, 220, 220);
+}
+
+.input:hover ::placeholder {
+    display: none;
+}
+
+.input ::placeholder {
+    margin-left: 1rem;
+}
+
+
+.contactInfo {
+   display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 400px;
+    justify-content: space-between;
+}
+.formHoldit {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.submitButton {
+    width: 100%;
+    max-width: 100px;
+    padding: 1rem; 
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.submitButton:hover {
+    background-color: rgb(188, 188, 188);
+}
+.contactPhrase {
+    font-weight: 350px;
+    font-size: 2rem;
+    color:rgb(246, 244, 244);
+}
+
+.bodyContainer {
+    height: 250px;
+    background-color: white;
+    border-radius: 1rem;
+    border-right-width: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border:none;
+    outline: none;
+    
+}
+
+.bodyContainer:hover  {
+    background-color: rgb(220, 220, 220);
+}
+.bodyContainer:hover .inputBody{
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.container {
+    margin-top: 5rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.actionButton {
+    width: 100%;
+    max-width: 100px;
+    padding: 1rem; 
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.actionButton:hover {
+   background-color: rgb(166, 166, 166);
+}
+.resumeContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: .75rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    
+}
+.resumeContainer:hover {
+    background-color: rgb(166, 166, 166) ;
+}
+
+.loadIcon {
+    height: 25px;
+    width: 25px;
+    color: white;
+    padding: .5rem;
+}
+.welcome {
+    font-weight: 200;
+}
+.languagelist {
+    font-weight: 100;
+}

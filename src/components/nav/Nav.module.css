@@ -1,0 +1,13 @@
+.navContainer {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    position: sticky;
+}
+.navItems {
+    box-sizing: border-box;
+    display: flex;
+    margin: 1rem;
+}
