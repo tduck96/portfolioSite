@@ -11,3 +11,11 @@
     display: flex;
     margin: 1rem;
 }
+.brand {
+    display: flex;
+    align-items: center;
+}
+.duckLogo {
+    width: 200px;
+    height: 50px;
+}

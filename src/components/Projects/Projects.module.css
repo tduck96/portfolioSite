@@ -1,0 +1,30 @@
+.posterButton {
+    padding: 0;
+    border: none;
+    margin: none;
+}
+.poster {
+    height: 150px;
+    width: 100px;
+    border-radius: 1rem;
+    
+} 
+
+.poster:hover {
+    cursor: pointer;
+    opacity: .7
+}
+.projectContainer {
+    height: 400px;
+    width: 300px;
+    border-radius: 1rem;
+    opacity: .9;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}

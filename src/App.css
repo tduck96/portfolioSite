@@ -10,7 +10,7 @@ a {
   color: rgb(255, 255, 255);
 }
 a:hover {
-  opacity: .7;
+  opacity: .8;
 }
 li {
   list-style: none;
