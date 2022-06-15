@@ -1,5 +1,5 @@
 
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import styles from './Contact.module.css'
 const axios = require('axios');
 
@@ -11,18 +11,36 @@ const [phone, setPhone] = useState('');
 const [message, setMessage] = useState('');
 
 
+
 const submitForm = (e) => {
 e.preventDefault();
+
   let emailBody = {
     name: name, 
     email: email,
     phone: phone,
     message: message
   }
+  const resetForm = () => {
+    setName('');
+    setEmail('');
+    setPhone('');
+    setMessage('');
+    alert('Success! Thanks for reaching out!')
+  }
 
-axios.post('http://localhost:3001/api/send', emailBody)
-.then(res => console.log(res))
+async function sendMail()  {
+await axios.post('http://localhost:3001/api/send', emailBody)
+.then(res => alert('message sent sucessfully'))
+.catch(function(error) {
+  alert('Something went wrong try again later!');
+})
 
+}
+
+
+sendMail();
+resetForm();
 }
 
   return (
