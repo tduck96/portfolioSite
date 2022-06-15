@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    max-width: 400px;
 }
 .actionButton {
     width: 100%;
@@ -37,8 +38,8 @@
 }
 
 .loadIcon {
-    height: 25px;
-    width: 25px;
+    max-height: 25px;
+    max-width: 25px;
     color: white;
     padding: .5rem;
 }
@@ -47,4 +48,14 @@
 }
 .languagelist {
     font-weight: 100;
+}
+
+@media (max-width: 400) {
+    .loadIcon {
+        max-height: 15px;
+        max-width: 15px;
+    }
+    .container {
+        max-width: 350px;
+    }
 }
