@@ -5,11 +5,14 @@
     justify-content: space-between;
     margin: 1rem;
     position: sticky;
+    
+    
 }
 .navItems {
     box-sizing: border-box;
     display: flex;
     margin: 1rem;
+   
 }
 .brand {
     display: flex;
@@ -17,19 +20,5 @@
 }
 .duckLogo {
     max-width: 200px;
-    max-height: 50px;
-}
-
-@media (max-width:400) {
-    .navContainer {
-        max-width: 350px;
-    }
-    .ul {
-        max-width: fit-content;
-    }
-
-    .duckLogo {
-        max-width: 150px;
-        max-height: 35px;
-    }
+    max-height: 50px; 
 }

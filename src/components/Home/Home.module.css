@@ -1,10 +1,25 @@
 .container {
-    margin-top: 5rem;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
     justify-content: center;
-    align-items: center;
     font-size: 2rem;
-    max-width: 400px;
+    margin: auto;
+   
+}
+
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.actionContainer {
+    display: flex;
+    justify-content: center;
+    
+   
 }
 .actionButton {
     width: 100%;
@@ -12,50 +27,115 @@
     padding: 1rem; 
     background-color: rgb(255, 255, 255);
     border: none;
-    margin: 1rem;
+    margin: 2rem;
+    margin-top: 5rem;
     border-radius: 1rem;
     cursor: pointer;
 }
 .actionButton:hover {
    background-color: rgb(248, 236, 89);
 }
-.resumeContainer {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-size: .75rem;
-    padding: .5rem;
-    border-radius: 1rem;
-    
-}
-.resumeContainer:hover {
- background-color: rgb(248, 236, 89);
- cursor: pointer;
-}
+
 
 .loadIcon {
-    max-height: 25px;
-    max-width: 25px;
+    max-height: 15px;
+    max-width: 15px;
     color: white;
-    padding: .5rem;
+    
 }
 .welcome {
     font-weight: 200;
 }
 .languagelist {
     font-weight: 100;
+    margin-top: .5rem;
 }
 
-@media (max-width: 400) {
-    .loadIcon {
-        max-height: 15px;
-        max-width: 15px;
-    }
+h3 {
+    margin-top: .2rem;
+}
+.actionButtonResume {
+    width: 100%;
+    max-height: 50px;
+    max-width: 100px;
+    padding: .5rem; 
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: 2rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actionButtonResume:hover {
+    background-color: rgb(248, 236, 89);
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+
+}
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {
     .container {
-        max-width: 350px;
+        margin-top: auto;
+        margin-top: auto;
+        font-size: 1.5rem;
+    } 
+    .actionContainer {
+        margin-left: auto;
+        margin-right: auto;
+       }
+ }
+
+@media all and (max-width: 480px) {
+   .container {
+    font-size: 1.2rem;
+    margin: auto;
+
+   }
+   .actionContainer {
+    margin-left: auto;
+    margin-right: auto;
+   }
+  
+    }
+  @media screen and ( min-height: 500px) and (max-height:650px)  { 
+       .container {
+       font-size: 1.3rem ;
+       }
+ } 
+ @media screen and ( min-height: 600px) and (max-height:650px)  { 
+    .container {
+        font-size: 1.5rem;
+    }
+} 
+
+@media screen and ( min-height: 650px) and (max-height:670px)  { 
+    .container {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and ( min-height: 670px) and (max-height:730px)  { 
+    .container {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and ( min-height: 730px) and (max-height:830px)  { 
+    .container {
+        font-size: 2rem;
+    }
+}
+@media screen and ( min-height: 830px) and (max-height:930px)  { 
+    .container {
+        font-size: 2rem;
     }
 }
