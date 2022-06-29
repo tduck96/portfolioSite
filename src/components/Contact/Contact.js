@@ -1,6 +1,8 @@
 
 import React, {useState} from 'react'
 import styles from './Contact.module.css'
+import linkedin from './linkedin.png'
+import github from './github.png'
 const axios = require('axios');
 
 const Contact = () => {
@@ -44,6 +46,7 @@ resetForm();
 }
 
   return (
+    <div>
     <div className = {styles.boxContainer}>
       <h2 className = {styles.contactPhrase}> Reach out, I'll be with you as  soon as possible.</h2>
 
@@ -60,6 +63,12 @@ resetForm();
           
       </form>
       <button type ='submit' className = {styles.submitButton} onClick = {submitForm}>Send</button>
+    </div>
+    <div className = {styles.contactFooter}>
+    <a href = 'https://www.linkedin.com/in/thomasduckworthdev//' target = "_blank"><img src = {linkedin} alt = '' className = {styles.linkedin}></img></a>
+    <a href = 'https://github.com/tduck96' target = "_blank"><img src = {github} alt = '' className = {styles.github}></img></a>
+
+    </div>
     </div>
   )
 }

@@ -96,6 +96,20 @@
     background-color: rgb(220, 220, 220);
     cursor: pointer;
 }
+.contactFooter {
+    margin-top: 8rem;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin {
+ margin-right: .5rem;
+}
+.github {
+    margin-left: .5rem;
+    
+}
 
 @media screen and (max-width:555px)  {
     /* .contactPhrase {
