@@ -4,27 +4,90 @@
     margin: none;
 }
 .poster {
-    height: 150px;
-    width: 100px;
+    height: 225px;
+    width: 175px;
     border-radius: 1rem;
     
 } 
-
+.projectCard {
+    width: 100%;
+    box-shadow: border-box;
+   margin: 1rem;
+   border-radius: 1rem;
+   display: flex;
+  
+}
+.projectCard > h1 {
+    margin: none;
+}
+.projectContainer {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descriptionFields {
+   margin-left: 1.5rem;
+   top: 0;
+}
+.projectTitle {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.builtwith {
+    font-weight: 200;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.smallDetails {
+    font-size: 1rem;
+    font-weight: 200;
+}
 .poster:hover {
     cursor: pointer;
     opacity: .7
 }
-.projectContainer {
-    height: 400px;
-    width: 300px;
-    border-radius: 1rem;
-    opacity: .9;
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-}
-.title {
+.githubLink {
+    background-color: white;
     color: black;
-    font-weight: 600;
-    text-decoration: underline;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-weight: 200;
+    margin-top: 2rem;
+
 }
+.githubLink:hover {
+    background-color: rgb(248, 236, 89);
+}
+
+
+button {
+     background-color: rgb(78, 87, 247);
+     border: none;
+}
+
+@media (max-width:500px ){
+    .projectTitle {
+        font-size: 1.3rem;
+    }
+    .builtwith {
+        font-size: .8rem;
+    }
+    .smallDetails {
+        font-size: .8rem;
+    }
+};
+
+@media (max-width: 400px) {
+    .projectTitle {
+        font-size: 1.1rem;
+    }
+    .builtwith {
+        font-size: .6rem;
+    }
+    .smallDetails {
+        font-size: .6rem;
+    }
+}
+

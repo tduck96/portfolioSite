@@ -45,21 +45,18 @@ resetForm();
 
   return (
     <div className = {styles.boxContainer}>
-      <h2 className = {styles.contactPhrase}>  GET IN TOUCH</h2>
+      <h2 className = {styles.contactPhrase}> Reach out, I'll be with you as  soon as possible.</h2>
 
       <form className = {styles.contactFormContainer}>
       
       <div className = {styles.formHoldit}>
-        <ul className = {styles.contactInfo}>
+       
           <input type = 'text' placeholder = 'Name*' className = {styles.input} value = {name}onChange={(e) =>  setName(e.target.value)}></input>
           <input type = 'text' placeholder = "Email Address*" className = {styles.input} value = {email}onChange={(e) => setEmail(e.target.value)}></input>
           <input type = 'text' placeholder = "Phone Number*" className = {styles.input} value = {phone}onChange={(e) =>  setPhone(e.target.value)}></input>
-       </ul>
-
-          <div className = {styles.bodyContainer}>
-          <input type = 'text' placeholder="Any details of information you wish to provide" className = {styles.inputBody} value = {message}onChange={(e) => setMessage(e.target.value)}></input>
+          <textarea placeholder="Any details you wish to provide" className = {styles.inputBody}  value = {message }onChange={(e) => setMessage(e.target.value)}></textarea>
           </div>
-          </div>
+          
           
       </form>
       <button type ='submit' className = {styles.submitButton} onClick = {submitForm}>Send</button>
