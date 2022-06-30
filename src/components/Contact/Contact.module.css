@@ -111,32 +111,76 @@
     
 }
 
-@media screen and (max-width:555px)  {
-    /* .contactPhrase {
-        font-size: 1.3rem;
-    }
-    .input {
-        height: 30px;
-    } */
-}
+
 
 @media screen and (max-width: 425px) {
     .input {
-       height: 2rem;
+       height:40px;
        
     }
     .contactPhrase {
         font-size: 1.1rem;
     }
-  
-    
+  .formHoldit {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .submitButton {
+    padding: .65em;
+    font-size: .8rem;
+    width: 25%;
+    margin-top: 1.4rem;
+  }
+    .inputBody {
+        font-size: .8rem;
+        height: 120px;
+    }
+    .contactFooter {
+        margin-top: 2rem;
+    }
+
+    .linkedin {
+       width: 25px;
+       }
+       .github {
+          width:25px ; 
+           
+       }
+}
+ 
+@media (min-width: 1000px) {
+    .contactPhrase {
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+    }
+
+    .input {
+        height:50px;
+        font-size: 1rem;
+     }
+     .inputBody {
+        font-size: 1rem;
+     }
+     .submitButton {
+        padding: .8rem;
+        font-size: 1rem;
+        width: 15%;
+        height: 40px;
+        margin-top: 1rem;
+      }
+      .linkedin {
+        width: 40px;
+        margin-top: 0;
+        }
+        .github {
+           width:40px;
+           margin-top: 0rem; 
+            
+        }
+
+
 }
 
-@media screen and (max-width: 450px) {
-    /* .input {
-        height: 20px;
-    }
-    .contactPhrase {
-        font-size: 1.1rem;
-} */
-}
