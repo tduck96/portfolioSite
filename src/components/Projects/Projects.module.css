@@ -67,27 +67,43 @@ button {
      border: none;
 }
 
-@media (max-width:500px ){
-    .projectTitle {
-        font-size: 1.3rem;
-    }
-    .builtwith {
-        font-size: .8rem;
-    }
-    .smallDetails {
-        font-size: .8rem;
-    }
-};
 
-@media (max-width: 400px) {
+
+@media (max-width: 425px) {
     .projectTitle {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
     .builtwith {
-        font-size: .6rem;
+        font-size: .7rem;
     }
     .smallDetails {
-        font-size: .6rem;
+        font-size: .7rem;
+    }
+    .poster {
+        height: 200px;
+        width: 160px;
+        border-radius: 1rem;
+    } 
+    .descriptionFields {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        top: 0;
+     }
+     .githubLink {
+      
+        padding: .3rem;
+        border-radius: 1rem;
+        font-weight: 200;
+        margin-top: 1.5rem;
+    
     }
 }
-
+@media (max-width: 380px) {
+    .githubLink {
+        padding: .2rem;
+        border-radius: .7rem;
+        font-weight: 200;
+        margin-top: 1.5rem;
+    
+    }
+}

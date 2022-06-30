@@ -64,9 +64,10 @@
         font-size: 2rem;
     }
     .actionButton {
-        padding: .9rem;
-        width: 150px;
-        height: 75px;;
+        padding: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+     
     }
 }
 
