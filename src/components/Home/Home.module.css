@@ -34,6 +34,20 @@
     font-size: 1.3rem;
     
 }
+.contactFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    
+}
+.linkedin {
+    margin-right: .5rem;
+   }
+   .github {
+       margin-left: .5rem;
+       
+   }
 
 @media  (min-width: 800px) {
     .container {
@@ -47,7 +61,7 @@
     }
     .actionButton {
         padding: .7rem;
-        margin-top: 8rem;
+        margin-top: 6rem;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         font-size: .8rem;
