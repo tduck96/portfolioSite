@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Home.module.css'
 import download from './download2.png'
-import linkedin from './assets/linkedin.png';
-import github from './assets/github.png';
+import linkedin from './linkedin.png';
+import github from './github.png';
 // import Project from './Project';
 
 const Home = () => {
