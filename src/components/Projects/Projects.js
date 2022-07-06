@@ -29,7 +29,7 @@ const Projects = () => {
       
       <div className = {styles.descriptionFields}>
         <h1 className={styles.projectTitle}> Move the Movies Around </h1>
-        <p className ={styles.smallDetails}>  I wanted to build an app that would consume a third party API.</p>
+        <p className ={styles.smallDetails}> Web application that consumes imdB API for data. Application allows user to implement basic CRUD actions with said data, adding different films to a favorites or watch list. </p>
         <p className = {styles.builtwith}> <i> React frontend consuming imdB api for data</i></p>
         <a href = 'https://github.com/tduck96/movieApp' target = "_blank" className = {styles.githubLink}>GitHub</a>
         </div>
