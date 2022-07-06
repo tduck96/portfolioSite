@@ -1,8 +1,8 @@
 
 import React, {useState} from 'react'
 import styles from './Contact.module.css'
-import linkedin from '/Users/thomasduckworth/portfolio-site/portfolioSite/src/components/assets/linkedin.png';
-import github from '/Users/thomasduckworth/portfolio-site/portfolioSite/src/components/assets/github.png'
+import linkedin from './linkedin.png';
+import github from './github.png'
 const axios = require('axios');
 
 const Contact = () => {
