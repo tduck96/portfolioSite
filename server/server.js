@@ -46,8 +46,6 @@ smtpTransport.sendMail(mailOptions, function(err, info)
 })
 
 
-
-console.log(message)
 smtpTransport.close();
 })
 
