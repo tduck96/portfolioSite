@@ -17,10 +17,10 @@ const Home = () => {
     <a href = '/contact'><button className = {styles.actionButton}>Contact</button></a>
     <a href = '/' target = "_blank"><button className = {styles.actionButton}>Resume</button></a>
     </div>
-    <div className = {styles.contactFooter}>
-    <a href = 'https://www.linkedin.com/in/thomasduckworthdev//' target = "_blank"><img src = {linkedin} alt = '' className = {styles.linkedin}></img></a>
-    <a href = 'https://github.com/tduck96' target = "_blank"><img src = {github} alt = '' className = {styles.github}></img></a>
-    </div>
+   <div className = {styles.contactFooter}>
+      {/* <a href = 'https://www.linkedin.com/in/thomasduckworthdev//' target = "_blank"><img src = {linkedin} alt = '' className = {styles.linkedin}></img></a>
+       <a href = 'https://github.com/tduck96' target = "_blank"><img src = {github} alt = '' className = {styles.github}></img></a>  */}
+    </div> 
     </div>
   )
 }
