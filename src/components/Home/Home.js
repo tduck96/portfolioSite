@@ -15,7 +15,7 @@ const Home = () => {
     <div className = {styles.actionContainer}>
     <a href = '/projects'><button className = {styles.actionButton}>Projects</button></a>
     <a href = '/contact'><button className = {styles.actionButton}>Contact</button></a>
-    <a href = '/' target = "_blank"><button className = {styles.actionButton}>Resume</button></a>
+    <a href = 'https://drive.google.com/file/d/1sdIdNCsRgEeuo7izk5zdl92WHSckHz87/view?usp=sharing' target = "_blank"><button className = {styles.actionButton}>Resume</button></a>
     </div>
    
     </div>
