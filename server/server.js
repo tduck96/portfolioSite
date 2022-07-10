@@ -1,10 +1,31 @@
 const express = require('express');
 const app = express();
-const cors = require('cors')
+
 const nodemailer = require('nodemailer');
 
 app.use(express.json());
-app.use(cors())
+
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*")
+     res.header(
+       "Access-Control-Allow-Headers",
+       ["Origin, X-Requested, Content-Type, Accept"],
+
+       res.header("Access-Control-Allow-Methods",
+       "POST, PUT, PATCH, GET, DELETE, OPTIONS")
+     )
+     res.header("Access-Control-Allow-Credentials", "true")
+
+    if (req.method === "OPTIONS") {
+      res.header(
+        "Access-Control-Allow-Methods",
+        "POST, PUT, PATCH, GET, DELETE"
+      )
+      res.header("Access-Control-Allow-Origin", "*")
+      return res.status(200).json({})
+    }
+    next()
+  })
 
 app.get('/', (req, res) => {
     res.send('hey')

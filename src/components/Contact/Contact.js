@@ -34,9 +34,9 @@ e.preventDefault();
 async function sendMail()  {
 await axios.post('https://serverformynodemailer.herokuapp.com/api/send', emailBody)
 .then(res => alert('message sent sucessfully'))
-.catch(function(error) {
-  alert('Something went wrong try again later!');
-})
+ .catch(function(error) {
+   alert('Something went wrong try again later!');
+ })
 
 }
 
