@@ -28,18 +28,16 @@ e.preventDefault();
     setEmail('');
     setPhone('');
     setMessage('');
-    alert('Success! Thanks for reaching out!')
   }
 
 async function sendMail()  {
 await axios.post('https://serverformynodemailer.herokuapp.com/api/send', emailBody)
-.then(res => alert('message sent sucessfully'))
+.then(res => alert('Success! Thanks for reaching out!'))
  .catch(function(error) {
    alert('Something went wrong try again later!');
  })
 
 }
-
 
 sendMail();
 resetForm();

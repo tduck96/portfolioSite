@@ -22,6 +22,9 @@ app.use((req, res, next) => {
         "POST, PUT, PATCH, GET, DELETE"
       )
       res.header("Access-Control-Allow-Origin", "*")
+      res.header(
+        "Access-Control-Allow-Headers",
+        ["Origin, X-Requested, Content-Type, Accept"]);
       return res.status(200).json({})
     }
     next()
@@ -68,6 +71,7 @@ smtpTransport.sendMail(mailOptions, function(err, info)
 
 
 smtpTransport.close();
+res.send('Thank You');
 })
 
 
