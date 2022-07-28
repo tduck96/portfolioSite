@@ -1,6 +1,6 @@
-Duck's Web Dev Portfolio
+ # Duck's Web Dev Portfolio #
 
-Tried to keep this site true to my personal brand. I wanted to keep the UI consise, like Hemingway... with a touch of goof.
+ > Tried to keep this site true to my personal brand. I wanted to keep the UI consise, like Hemingway... with a touch of goof.
 
 Final Thoughts:
 
