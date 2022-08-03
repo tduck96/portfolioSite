@@ -18,7 +18,7 @@ const Projects = () => {
       <div className = {styles.descriptionFields}>
         <h1 className = {styles.projectTitle}> Katies Pretty Prints</h1>
         <p className ={styles.smallDetails}> Designed and developed full stack ecommerce storefront with the use of React, Node/Express and mySQL </p>
-        <p className = {styles.builtwith}> Built with <i>  End result is a sleek, clean UI in which client can purchase photography prints through secure payment portal via the Stripe API </i></p>
+        <p className = {styles.builtwith}> <i>  End result is a sleek, clean UI in which client can purchase photography prints through secure payment portal via the Stripe API </i></p>
         <a href = 'https://github.com/tduck96/ecom' target = "_blank" className = {styles.githubLink}>GitHub</a>
       </div>
 
@@ -43,7 +43,7 @@ const Projects = () => {
       
       <div className = {styles.descriptionFields}>
         <h1 className={styles.projectTitle}> Move the Movies Around </h1>
-        <p className = {styles.smallDetails}>Implemented third party IMDb API endpoint to fetch data about various films. </p>
+        <p className = {styles.smallDetails}>Implemented third party IMDb API endpoint to fetch data about various films </p>
         <p className = {styles.builtwith}> <i> End result is a quirky web application that allows client to keep track of their favorite movies and television shows,  as well as keep in mind movies for future viewings</i></p>
         <a href = 'https://github.com/tduck96/movieApp' target = "_blank" className = {styles.githubLink}>GitHub</a>
         </div>
