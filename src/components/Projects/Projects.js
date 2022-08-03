@@ -17,26 +17,13 @@ const Projects = () => {
       </a>
       <div className = {styles.descriptionFields}>
         <h1 className = {styles.projectTitle}> Katies Pretty Prints</h1>
-        <p className ={styles.smallDetails}> A small e-commerce protype used to sell prints of my girlfriends photography. </p>
-        <p className = {styles.builtwith}> Built with <i>  React frontend, express Node server, MYSQL database, and Stripe API </i></p>
+        <p className ={styles.smallDetails}> Designed and developed full stack ecommerce storefront with the use of React, Node/Express and mySQL </p>
+        <p className = {styles.builtwith}> Built with <i>  End result is a sleek, clean UI in which client can purchase photography prints through secure payment portal via the Stripe API </i></p>
         <a href = 'https://github.com/tduck96/ecom' target = "_blank" className = {styles.githubLink}>GitHub</a>
       </div>
 
       </div>
       <div className = {styles.projectCard}>
-
-      <a href = 'https://movie-2nc3hss45-tduck96.vercel.app/'  target= "_blank">
-      <img src = {moviePoster} alt = '' className = {styles.poster}></img></a>
-      
-      <div className = {styles.descriptionFields}>
-        <h1 className={styles.projectTitle}> Move the Movies Around </h1>
-        <p className ={styles.smallDetails}> Web application that consumes imdB API for data. Application allows user to implement basic CRUD actions with said data, adding different films to a favorites or watch list. </p>
-        <p className = {styles.builtwith}> <i> React frontend consuming imdB api for data</i></p>
-        <a href = 'https://github.com/tduck96/movieApp' target = "_blank" className = {styles.githubLink}>GitHub</a>
-        </div>
-        </div>
-
-        <div className = {styles.projectCard}>
 
         <a href = 'https://www.youtube.com/watch?v=_BpyQ4pZtl0'  target= "_blank">
         <img src = {newsreel} alt = '' className = {styles.poster}></img></a>
@@ -48,6 +35,21 @@ const Projects = () => {
         <a href = 'https://github.com/tduck96/newsreel' target = "_blank" className = {styles.githubLink}>GitHub</a>
         </div>
         </div>
+        
+      <div className = {styles.projectCard}>
+
+      <a href = 'https://movie-2nc3hss45-tduck96.vercel.app/'  target= "_blank">
+      <img src = {moviePoster} alt = '' className = {styles.poster}></img></a>
+      
+      <div className = {styles.descriptionFields}>
+        <h1 className={styles.projectTitle}> Move the Movies Around </h1>
+        <p>Implemented third party IMDb API endpoint to fetch data about various films. </p>
+        <p className = {styles.builtwith}> <i> End result is a quirky web application that allows client to keep track of their favorite movies and television shows,  as well as keep in mind movies for future viewings</i></p>
+        <a href = 'https://github.com/tduck96/movieApp' target = "_blank" className = {styles.githubLink}>GitHub</a>
+        </div>
+        </div>
+
+        
 </div>
 </div>
     
