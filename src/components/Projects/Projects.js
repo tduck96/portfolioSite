@@ -35,7 +35,7 @@ const Projects = () => {
         <a href = 'https://github.com/tduck96/newsreel' target = "_blank" className = {styles.githubLink}>GitHub</a>
         </div>
         </div>
-        
+
       <div className = {styles.projectCard}>
 
       <a href = 'https://movie-2nc3hss45-tduck96.vercel.app/'  target= "_blank">
@@ -43,7 +43,7 @@ const Projects = () => {
       
       <div className = {styles.descriptionFields}>
         <h1 className={styles.projectTitle}> Move the Movies Around </h1>
-        <p>Implemented third party IMDb API endpoint to fetch data about various films. </p>
+        <p className = {styles.smallDetails}>Implemented third party IMDb API endpoint to fetch data about various films. </p>
         <p className = {styles.builtwith}> <i> End result is a quirky web application that allows client to keep track of their favorite movies and television shows,  as well as keep in mind movies for future viewings</i></p>
         <a href = 'https://github.com/tduck96/movieApp' target = "_blank" className = {styles.githubLink}>GitHub</a>
         </div>
