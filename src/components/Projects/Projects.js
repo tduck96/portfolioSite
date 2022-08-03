@@ -34,6 +34,19 @@ const Projects = () => {
         <a href = 'https://github.com/tduck96/movieApp' target = "_blank" className = {styles.githubLink}>GitHub</a>
         </div>
         </div>
+
+        <div className = {styles.projectCard}>
+
+        <a href = 'https://www.youtube.com/watch?v=_BpyQ4pZtl0'  target= "_blank">
+        <img src = {moviePoster} alt = '' className = {styles.poster}></img></a>
+      
+      <div className = {styles.descriptionFields}>
+        <h1 className={styles.projectTitle}> Duck's Newsreel </h1>
+        <p className ={styles.smallDetails}> Developed a front-end web application that utilizes React Context API to manage state,  and React hooks to implement search/sort features with the data from a third party endpoint </p>
+        <p className = {styles.builtwith}> <i>End result is delightful user experience that allows client to easily traverse through breaking news stories</i></p>
+        <a href = 'https://github.com/tduck96/newsreel' target = "_blank" className = {styles.githubLink}>GitHub</a>
+        </div>
+        </div>
 </div>
 </div>
     
