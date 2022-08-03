@@ -1,6 +1,7 @@
 import React from 'react'
 import moviePoster from './assets/moviePosterReal.png'
 import prettyPrints from './assets/prettyprintsmobile.png';
+import newsreel from './assets/screenshotnews.png';
 
 import styles from './Projects.module.css'
 
@@ -38,7 +39,7 @@ const Projects = () => {
         <div className = {styles.projectCard}>
 
         <a href = 'https://www.youtube.com/watch?v=_BpyQ4pZtl0'  target= "_blank">
-        <img src = {moviePoster} alt = '' className = {styles.poster}></img></a>
+        <img src = {newsreel} alt = '' className = {styles.poster}></img></a>
       
       <div className = {styles.descriptionFields}>
         <h1 className={styles.projectTitle}> Duck's Newsreel </h1>
