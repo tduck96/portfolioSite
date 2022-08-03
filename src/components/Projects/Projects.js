@@ -1,7 +1,7 @@
 import React from 'react'
 import moviePoster from './assets/moviePosterReal.png'
 import prettyPrints from './assets/prettyprintsmobile.png';
-import newsreel from './assets/screenshotnews.png';
+import newsreel from './assets/screenshotnews.png.png';
 
 import styles from './Projects.module.css'
 
