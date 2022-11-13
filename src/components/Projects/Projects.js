@@ -2,7 +2,7 @@ import React from 'react'
 import moviePoster from './assets/moviePosterReal.png'
 import prettyPrints from './assets/prettyprintsmobile.png';
 import newsreel from './assets/screenshotnews.png.png';
-
+import goodsport from './assets/goodsport.png'
 import styles from './Projects.module.css'
 
 const Projects = () => {
@@ -10,17 +10,41 @@ const Projects = () => {
     <div>
       <div className = {styles.centerHead}>
       </div>
+
+
       <div className = {styles.projectContainer}>
+
+
+      <div className = {styles.projectCard}>
+
+<a href = "https://www.goodsportruff.com/" target= "_blank">
+<img src = {goodsport} alt = '' className = {styles.poster}></img></a>
+
+<div className = {styles.descriptionFields}>
+<h1 className={styles.projectTitle}> GoodSport </h1>
+<p className ={styles.smallDetails}> Designed and developed GoodSport with use of C#, ASP.NET Core Web API, MS SQL Server, and React </p>
+<p className = {styles.builtwith}> <i>End result is a full-stack web application that allows dog sport enthusiasts to connect with others who share the same passions</i></p>
+<a href = 'https://github.com/tduck96/DogSportClient' target = "_blank" className = {styles.githubLink2}>GitHub Client</a>
+<a href = 'https://github.com/tduck96/DogSportApi' target = "_blank" className = {styles.githubLink2}>GitHub Backend</a>
+</div>
+
+</div>
+
       <div className = {styles.projectCard}>
       <a href = 'https://katiesprettyprints.herokuapp.com/'  target="_blank" >
         <img src = {prettyPrints} alt = '' className = {styles.poster}></img>
       </a>
+
+    
       <div className = {styles.descriptionFields}>
         <h1 className = {styles.projectTitle}> Katies Pretty Prints</h1>
         <p className ={styles.smallDetails}> Designed and developed full stack ecommerce storefront with the use of React, Node/Express and mySQL </p>
         <p className = {styles.builtwith}> <i>  End result is a sleek, clean UI in which client can purchase photography prints through secure payment portal via the Stripe API </i></p>
         <a href = 'https://github.com/tduck96/ecom' target = "_blank" className = {styles.githubLink}>GitHub</a>
       </div>
+
+
+      
 
       </div>
       <div className = {styles.projectCard}>
@@ -35,6 +59,8 @@ const Projects = () => {
         <a href = 'https://github.com/tduck96/newsreel' target = "_blank" className = {styles.githubLink}>GitHub</a>
         </div>
         </div>
+
+      
 
       <div className = {styles.projectCard}>
 
