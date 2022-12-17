@@ -24,8 +24,7 @@ const Projects = () => {
 <h1 className={styles.projectTitle}> GoodSport </h1>
 <p className ={styles.smallDetails}> Designed and developed GoodSport with use of C#, ASP.NET Core Web API, MS SQL Server, and React </p>
 <p className = {styles.builtwith}> <i>End result is a full-stack web application that allows dog sport enthusiasts to connect with others who share the same passions</i></p>
-<a href = 'https://github.com/tduck96/DogSportClient' target = "_blank" className = {styles.githubLink2}>GitHub Client</a>
-<a href = 'https://github.com/tduck96/DogSportApi' target = "_blank" className = {styles.githubLink2}>GitHub Backend</a>
+<a href = 'https://github.com/tduck96/DogSportApi' target = "_blank" className = {styles.githubLink2}>GitHub</a>
 </div>
 
 </div>
